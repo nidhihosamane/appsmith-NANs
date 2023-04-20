@@ -1,0 +1,20 @@
+{
+  "pages": [
+    {
+      "id": "Member Homepage",
+      "isDefault": true
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#C7F3E3",
+  "icon": "calender",
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
