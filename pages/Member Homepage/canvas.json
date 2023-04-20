@@ -438,7 +438,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
-                      "onClick": "{{post_order.run(() => postWindowMessage('Success!', 'window', '*'), () => postWindowMessage('Try again!', 'window', '*'))}}",
+                      "onClick": "{{post_order.run(() => post_order.run(), () => {})}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
