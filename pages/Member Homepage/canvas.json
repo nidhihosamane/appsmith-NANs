@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1260,
+          "bottomRow": 1150,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -1299,66 +1299,6 @@
               "originalTopRow": 94,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
-            },
-            {
-              "boxShadow": "none",
-              "widgetName": "Input2",
-              "displayName": "Input",
-              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-              "searchTags": [
-                "form",
-                "text input",
-                "number",
-                "textarea"
-              ],
-              "topRow": 119,
-              "bottomRow": 126,
-              "parentRowSpace": 10,
-              "labelWidth": 5,
-              "autoFocus": false,
-              "type": "INPUT_WIDGET_V2",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 12.5625,
-              "resetOnSubmit": true,
-              "leftColumn": 18,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "labelPosition": "Top",
-              "labelStyle": "",
-              "inputType": "TEXT",
-              "isDisabled": false,
-              "key": "l2kz6o4xvf",
-              "labelTextSize": "0.875rem",
-              "isRequired": false,
-              "isDeprecated": false,
-              "rightColumn": 38,
-              "dynamicHeight": "FIXED",
-              "widgetId": "y3we7g7nad",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "showStepArrows": false,
-              "minWidth": 450,
-              "isVisible": true,
-              "label": "Label",
-              "version": 2,
-              "parentId": "0",
-              "labelAlignment": "left",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "originalTopRow": 119,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "originalBottomRow": 126,
-              "iconAlign": "left",
-              "defaultText": "",
-              "minDynamicHeight": 4
             }
           ]
         },

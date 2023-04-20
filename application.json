@@ -3,6 +3,10 @@
     {
       "id": "Member Homepage",
       "isDefault": true
+    },
+    {
+      "id": "Trainer Homepage",
+      "isDefault": false
     }
   ],
   "viewMode": false,
