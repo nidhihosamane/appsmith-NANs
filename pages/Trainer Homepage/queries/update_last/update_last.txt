@@ -1,0 +1,4 @@
+{
+	"tid":{{t_id_new_name.text}},
+	"last":{{new_last.text}},
+}
