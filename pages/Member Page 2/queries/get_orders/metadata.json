@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Member Homepage",
+    "pageId": "Member Page 2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -53,7 +53,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Member Homepage_get_orders",
+  "id": "Member Page 2_get_orders",
   "deleted": false,
-  "gitSyncId": "644092c54302d757c952f35a_64409c6a4302d757c952f369"
+  "gitSyncId": "6441a60ac7b30a49cab67918_6441b0dbc7b30a49cab6793f"
 }

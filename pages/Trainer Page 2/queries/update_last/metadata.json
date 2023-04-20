@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_orders",
+    "name": "update_last",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/orders"
+        "url": "web:4000/t/updateLast"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Member Homepage",
+    "pageId": "Trainer Page 2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{\n\t\"tid\":{{t_id_new_name.text}},\n\t\"last\":{{new_last.text}},\n}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -43,17 +43,24 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "new_last.text",
+      "t_id_new_name.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Member Homepage_get_orders",
+  "id": "Trainer Page 2_update_last",
   "deleted": false,
-  "gitSyncId": "644092c54302d757c952f35a_64409c6a4302d757c952f369"
+  "gitSyncId": "6441a60ac7b30a49cab67918_6441b0fec7b30a49cab6794e"
 }

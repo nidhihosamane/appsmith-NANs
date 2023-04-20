@@ -1,0 +1,3 @@
+{
+"mid":{{del_mem_id.text}}
+}

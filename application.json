@@ -5,7 +5,15 @@
       "isDefault": true
     },
     {
+      "id": "Member Page 2",
+      "isDefault": false
+    },
+    {
       "id": "Trainer Homepage",
+      "isDefault": false
+    },
+    {
+      "id": "Trainer Page 2",
       "isDefault": false
     }
   ],

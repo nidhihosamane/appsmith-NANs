@@ -1,0 +1,4 @@
+{
+  "mid":{{enter_mid.text}},
+  "msid":{{choose_type.selectedOptionValue}} 
+}

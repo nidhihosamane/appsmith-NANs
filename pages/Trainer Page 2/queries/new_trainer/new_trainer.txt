@@ -1,0 +1,6 @@
+{
+	"first":{{t_first.text}},
+	"last":{{t_last.text}},
+	"tid":{{tid_new.text}},
+	"gender":{{t_gender.text}}
+}

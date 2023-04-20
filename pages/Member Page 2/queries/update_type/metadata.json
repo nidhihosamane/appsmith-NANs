@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_orders",
+    "name": "update_type",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/orders"
+        "url": "web:4000/m/updateType"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Member Homepage",
+    "pageId": "Member Page 2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{\n  \"mid\":{{enter_mid.text}},\n  \"msid\":{{choose_type.selectedOptionValue}} \n}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -43,17 +43,24 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "choose_type.selectedOptionValue",
+      "enter_mid.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Member Homepage_get_orders",
+  "id": "Member Page 2_update_type",
   "deleted": false,
-  "gitSyncId": "644092c54302d757c952f35a_64409c6a4302d757c952f369"
+  "gitSyncId": "6441a60ac7b30a49cab67918_6441b0dbc7b30a49cab6793b"
 }
