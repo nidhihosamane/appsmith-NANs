@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"msid\": \"1234\",\n  \"type\": \"Gold\"\n}",
+      "body": "{\n  \"mid\":enter_mid,\n  \"msid\":choose \n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
