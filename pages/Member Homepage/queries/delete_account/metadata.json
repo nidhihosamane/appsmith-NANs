@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "post_order",
+    "name": "delete_account",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/postOrder"
+        "url": "web:4000/m/deleteAccount"
       },
       "invalids": [],
       "messages": [],
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"totalCost\" : \"3.00\",\n  \"oid\": \"123\",\n  \"mcid\": \"123\",\n  \"mid\": \"123\"\n}",
+      "body": "{\n\"mid\":{{del_mem_id.text}}\n}",
       "bodyFormData": [],
-      "httpMethod": "POST",
+      "httpMethod": "DELETE",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -43,17 +43,23 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "del_mem_id.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Member Homepage_post_order",
+  "id": "Member Homepage_delete_account",
   "deleted": false,
-  "gitSyncId": "644092c54302d757c952f35a_644097da4302d757c952f364"
+  "gitSyncId": "64415ec996f9363268fc6fcc_64418c807910932ef81f36ad"
 }
